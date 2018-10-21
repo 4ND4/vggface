@@ -13,7 +13,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'numpy>=1.9.1', 'scipy>=0.14', 'h5py', 'pillow', 'keras',
-        'six>=1.9.0', 'pyyaml'
+        'six>=1.9.0', 'pyyaml', 'cv2', 'scikit-learn'
     ],
     extras_require={
         "tf": ["tensorflow"],
